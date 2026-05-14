@@ -1,0 +1,13 @@
+[project]
+name = "ejercicio-tdd-semana-4"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
